@@ -1,0 +1,37 @@
+.navbar {
+  color: rgb(0, 0, 0);
+  background-color: #33f03b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar__link {
+  text-transform: capitalize;
+}
+
+h4 {
+  font-size: 1.4rem;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  padding: 2rem;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7e5ced;
+}
