@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { PlusIcon, MinusIcon } from "../Icons";
 import "./styles.scss";
 
 const Counter = ({ stock }) => {
@@ -15,11 +16,11 @@ const Counter = ({ stock }) => {
   return (
     <div className="counter">
       <button className="counter__button" onClick={incCounter}>
-        +
+        <PlusIcon />
       </button>
       <span className="counter__display"> {counter} </span>
       <button className="counter__button" onClick={decCounter}>
-        -
+        <MinusIcon />
       </button>
     </div>
   );

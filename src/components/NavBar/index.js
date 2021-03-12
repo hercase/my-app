@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import CartWidget from "../CartWidget";
 import "./styles.css";
 
 const NavBar = ({ title = "Title", links = [] }) => {
@@ -16,6 +17,7 @@ const NavBar = ({ title = "Title", links = [] }) => {
               </li>
             ))}
       </ul>
+      <CartWidget />
     </div>
   );
 };
