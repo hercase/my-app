@@ -1,5 +1,6 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
+import Counter from "./components/Counter";
 
 function App() {
   const menuItems = [
@@ -10,6 +11,7 @@ function App() {
     },
     {
       title: "trousers",
+      link: "#",
       active: true,
     },
     {
@@ -31,6 +33,7 @@ function App() {
   return (
     <div className="App">
       <NavBar title="E-commerce" links={menuItems} />
+      <Counter stock={5} />
     </div>
   );
 }

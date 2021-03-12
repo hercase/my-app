@@ -1,0 +1,26 @@
+.counter {
+  margin: 2rem;
+  text-align: center;
+
+  &__display {
+    font-size: 1.2rem;
+    border-radius: 50%;
+    background-color: gainsboro;
+    padding: 8px 10px;
+    margin: 5px;
+    color: rgb(32, 104, 94);
+  }
+
+  &__button {
+    font-size: 2rem;
+    border-color: rgb(32, 104, 94);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    margin: 1rem;
+
+    &:hover {
+      background-color: rgb(32, 104, 94);
+      color: white;
+    }
+  }
+}
